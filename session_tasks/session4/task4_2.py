@@ -14,4 +14,5 @@ def most_common_words(filepath, number_of_words = 3):
         sorted_words = sorted(unique_words, key=lambda x: frequencies[unique_words.index(x)], reverse=True)
     return sorted_words[:number_of_words]
 
+
 print(most_common_words("data/lorem_ipsum.txt"))

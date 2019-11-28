@@ -1,5 +1,6 @@
 from typing import List
 
+
 def split(s: str, sep: str = " ") -> List[str]:
     if not sep:
         raise ValueError("empty separator")
@@ -13,10 +14,10 @@ def split(s: str, sep: str = " ") -> List[str]:
     return result_list
 
 
-str = "Hello world"
+my_str = "Hello world"
 sep = "l"
-substr_list = str.split(sep)
+substr_list = my_str.split(sep)
 print(substr_list)
 
-substr_list = split(str, sep=sep)
+substr_list = split(my_str, sep=sep)
 print(substr_list)

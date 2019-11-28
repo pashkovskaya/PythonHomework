@@ -1,9 +1,9 @@
 def reverse_quotes(s: str) -> str:
-    s = s.translate(str.maketrans({"'" : '"', '"' : "'"}))
+    s = s.translate(str.maketrans({"'": '"', '"': "'"}))
     return s
 
 
-str = "Hello 'World'!"
-print(str)
-new_str = reverse_quotes(str)
+my_str = "Hello 'World'!"
+print(my_str)
+new_str = reverse_quotes(my_str)
 print(new_str)

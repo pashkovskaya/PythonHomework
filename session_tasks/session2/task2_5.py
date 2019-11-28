@@ -1,5 +1,6 @@
 from typing import Tuple
 
+
 def get_digits1(num: int) -> Tuple[int]:
     if num == 0:
         result = [0]
@@ -17,6 +18,6 @@ def get_digits2(num: int) -> Tuple[int]:
     return tuple(int(digit) for digit in str(abs(num)))
 
 
-num = 1002020
-print(get_digits1(num))
-print(get_digits1(num))
+number = 1002020
+print(get_digits1(number))
+print(get_digits1(number))

@@ -1,5 +1,6 @@
 from typing import List
 
+
 def split_by_index(s: str, indexes: List[int]) -> List[str]:
     result = []
     start_index = 0
@@ -13,8 +14,9 @@ def split_by_index(s: str, indexes: List[int]) -> List[str]:
         result.append(sub_str)
     return result
 
-str = "pythoniscool,isn'tit?"
-print(split_by_index(str, [6, 8, 12, 13, 18]))
 
-str = "no luck"
-print(split_by_index(str, [42, 80]))
+my_str = "pythoniscool,isn'tit?"
+print(split_by_index(my_str, [6, 8, 12, 13, 18]))
+
+my_str = "no luck"
+print(split_by_index(my_str, [42, 80]))

@@ -8,6 +8,7 @@ def combine_dicts(*dicts: dict) -> dict:
                 result[key] = d[key]
     return result
 
+
 dict_1 = {'a': 100, 'b': 200}
 dict_2 = {'a': 200, 'c': 300}
 dict_3 = {'a': 300, 'd': 100}

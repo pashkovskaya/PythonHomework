@@ -7,4 +7,5 @@ def count_letters(s: str) -> dict:
             result[char] = 1
     return result
 
+
 print(count_letters(""))

@@ -1,5 +1,6 @@
 def remember_result(function):
     last_result = None
+
     def decorator(*args):
         nonlocal last_result
         print(f"Last result = '{last_result}'")

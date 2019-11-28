@@ -4,6 +4,7 @@ def get_top_performers(file_path, number_of_top_students = 5):
     top_students = sorted(students, key = lambda x : float(x[2]), reverse = True)
     return [student[0] for student in top_students[:number_of_top_students]]
 
+
 def write_students(src_file_path, dest_file_path):
     with open(src_file_path) as input_file:
         top_line = input_file.readline()

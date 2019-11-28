@@ -1,4 +1,4 @@
-def get_longest_word(s: str) -> str:
+def get_longest_word(s: str) -> str or None:
     words = s.split()
     if not words:
         return None
@@ -9,7 +9,7 @@ def get_longest_word(s: str) -> str:
     return longest_word
 
 
-s = "Python is simple end effective!"
-print(get_longest_word(s))
-s = " "
-print(get_longest_word(s))
+my_str = "Python is simple end effective!"
+print(get_longest_word(my_str))
+my_str = " "
+print(get_longest_word(my_str))

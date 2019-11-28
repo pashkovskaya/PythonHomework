@@ -3,9 +3,9 @@ def is_palindrome(s: str) -> bool:
     return s == s[::-1]
 
 
-str = "Hello"
-print(str, is_palindrome(str))
-str = "Lol"
-print(str, is_palindrome(str))
-str = "Keeeek"
-print(str, is_palindrome(str))
+my_str = "Hello"
+print(my_str, is_palindrome(my_str))
+my_str = "Lol"
+print(my_str, is_palindrome(my_str))
+my_str = "Keeeek"
+print(my_str, is_palindrome(my_str))
